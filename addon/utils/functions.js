@@ -1,3 +1,5 @@
+import Ember from 'ember';
+
 function parseObject(obj) {
   // Loop through object and create items as necessary
   for(var prop in obj){
@@ -40,4 +42,4 @@ function parseArray(array) {
   return array;
 }
 
-export { parseObject, parseArray }
+export { parseObject, parseArray };

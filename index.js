@@ -2,5 +2,9 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-transformer'
+  name: 'ember-transformer',
+  
+  isDevelopingAddon: function() {
+    return true;
+  }
 };
